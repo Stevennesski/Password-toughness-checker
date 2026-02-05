@@ -7,7 +7,7 @@ passwordInput.addEventListener("input", () => {
 
   lf (password.length <6) {
     result.textContent = "Strength: Weak";
-  } else if ("password.length < 10 =) {
+  } else if ("password.length < 10 ) {
     result.textContent = "Stength: Medium";
   } else {
     result.textContent = "Strength: Strong";
